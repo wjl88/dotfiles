@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("file" variable nil nil [11 27])
+            ("os" code nil nil [28 55]))          
+      :file "playrec.py"
+      :pointmax 56
+      :fsize 55
+      :lastmodtime '(23968 56541 643511 112000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Desktop!201910 Open Doors!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

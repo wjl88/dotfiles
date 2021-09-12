@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("serial" include nil nil [107 120])
+            ("time" include nil nil [144 155])
+            ("hotdog" variable nil nil [184 239])
+            ("while" code nil nil [524 817]))          
+      :file "hotdog_comms.py"
+      :pointmax 817
+      :fsize 816
+      :lastmodtime '(24034 52467 430724 962000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Desktop!201909 IDD!finalproj!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

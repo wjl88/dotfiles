@@ -1,0 +1,68 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("omp.h" include (:system-flag t) nil [40 56])
+            ("random" include (:system-flag t) nil [57 74])
+            ("cstdlib" include (:system-flag t) nil [75 93])
+            ("runnumbers" function (:type "void") nil [150 665])
+            ("main" function (:type "int") nil [676 1202]))          
+      :file "hello_mp.cpp"
+      :pointmax 1204
+      :fsize 1203
+      :lastmodtime '(23877 46991 556753 614000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("random" include (:system-flag t) nil [40 57])
+            ("omp.h" include (:system-flag t) nil [58 74])
+            ("string" include (:system-flag t) nil [75 92])
+            ("print" function
+               (:arguments 
+                  ( ("s_WriteOut" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [150 173]))                  
+                :type "void")
+                nil [138 291])
+            ("f_Print_Vect" function
+               (:arguments 
+                  ( ("arr" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [312 336]))                  
+                :type "void")
+                nil [293 479])
+            ("f_Parallel_Portion" function (:type "void") nil [481 717])
+            ("f_File_Writing_Block" function
+               (:arguments 
+                  ( ("valsx" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [746 772])
+                    ("valsy" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("double" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [773 799]))                  
+                :type "void")
+                nil [719 1593])
+            ("f_R_N_G" function (:type "double") nil [1596 1945])
+            ("f_ReadInNumSteps" function (:type "int") nil [1947 2332])
+            ("main" function (:type "int") nil [2334 4224]))          
+      :file "sptri.cpp"
+      :pointmax 4225
+      :fsize 4224
+      :lastmodtime '(23986 31708 8135 930000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Programs!openmp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

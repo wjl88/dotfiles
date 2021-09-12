@@ -1,0 +1,43 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [43 62])
+            ("fstream" include (:system-flag t) nil [63 81])
+            ("omp.h" include (:system-flag t) nil [82 98])
+            ("vector" include (:system-flag t) nil [99 116])
+            ("f_File_Writing_Block" function
+               (:arguments 
+                  ( ("valsx" variable
+                       (:reference 1
+                        :type ("std::vector" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [374 401]))                  
+                :type "void")
+                nil [347 903])
+            ("orbit" function
+               (:arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [919 929]))                  
+                :type "double")
+                nil [905 1026])
+            ("read_steps" function (:type "int") nil [1028 1149])
+            ("read_seed" function (:type "double") nil [1151 1275])
+            ("main" function (:type "int") nil [1277 1581]))          
+      :file "uniform_dist.cpp"
+      :pointmax 1582
+      :fsize 1581
+      :lastmodtime '(23963 48106 381080 520000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Programs!pro_orie!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

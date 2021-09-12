@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("omp.h" include (:system-flag t) nil [40 56])
+            ("random" include (:system-flag t) nil [57 74])
+            ("cstdlib" include (:system-flag t) nil [75 93])
+            ("runnumbers" function (:type "void") nil [95 610])
+            ("main" function (:type "int") nil [621 1147]))          
+      :file "hello_mp.cpp"
+      :pointmax 1149
+      :fsize 1148
+      :lastmodtime '(23678 60826 884601 977000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("omp.h" include (:system-flag t) nil [40 56])
+            ("random" include (:system-flag t) nil [57 74])
+            ("cstdlib" include (:system-flag t) nil [75 93])
+            ("earnings_per_day" function (:type ("auto" type (:type "class") nil nil)) nil [95 246])
+            ("bool_sale" function (:type "int") nil [248 760])
+            ("iterate_people" function
+               (:arguments 
+                  ( ("num_people" variable (:type "int") (reparse-symbol arg-sub-list) [784 800]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [762 1262])
+            ("read_params" function (:type "int") nil [1264 1451])
+            ("main" function (:type "int") nil [1453 1612]))          
+      :file "analytics_p1.cpp"
+      :pointmax 1613
+      :fsize 1612
+      :lastmodtime '(23702 14410 807357 608000)
+      :unmatched-syntax nil))
+  :file "!home!bil!progs!openmp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

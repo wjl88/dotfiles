@@ -1,0 +1,151 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Aug  1 23:12:08 2019
+;; Desktop file format version 208
+;; Emacs version 26.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23875 29128 140107 809000) (desktop . "208") "bil@archdual" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-Monoid-normal-normal-semicondensed-*-15-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#fdf4c1") (background-color . "#1d2021") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#fdf4c1") (sticky) (environment) (frameset--id . "7738-A2F8-6F9A-F4B5") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (frameset--text-pixel-width . 1249) (frameset--text-pixel-height . 1374) (height . 65) (width . 124) (left . 1273) (top . 44)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 168) (min-pixel-width . 200) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 80) (min-pixel-height-safe . 42) (min-pixel-width-safe . 40)) hc (pixel-width . 1265) (pixel-height . 1353) (total-width . 126) (total-height . 64) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 635) (pixel-height . 1353) (total-width . 63) (total-height . 64) (normal-height . 1.0) (normal-width . 0.5) (buffer "oop00.cpp" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2680) (start . 2108))) (vc (last . t) (pixel-width . 630) (pixel-height . 1353) (total-width . 63) (total-height . 64) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 630) (pixel-height . 686) (total-width . 63) (total-height . 32) (normal-height . 0.5085965344501929) (normal-width . 1.0) (buffer "oop00.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 598) (start . 386))) (leaf (last . t) (pixel-width . 630) (pixel-height . 667) (total-width . 63) (total-height . 32) (normal-height . 0.49140346554980724) (normal-width . 1.0) (buffer "*Org-Babel Error Output*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("generator"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "~/Programs/ProCPP/" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/bil/Programs/ProCPP/oop00.org"
+  "oop00.org"
+  'org-mode
+  '(visual-line-mode beacon-mode which-key-mode company-mode org-indent-mode)
+  598
+  '(416 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 23875 29127 87678 378000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (2144 2065 1916 1691 621))))
+
+(desktop-create-buffer 208
+  "/home/bil/Programs/ProCPP/oop00.cpp"
+  "oop00.cpp"
+  'c++-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  2680
+  '(902 nil)
+  nil
+  nil
+  '((buffer-display-time 23875 29127 87676 828000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (31 2515 2511 2511 937 2179 902 74 2891 1224 937 1 2891 2511 2566 2680))))
+
+(desktop-create-buffer 208
+  nil
+  "ProCPP"
+  'dired-mode
+  '(visual-line-mode beacon-mode which-key-mode company-mode)
+  534
+  '(nil nil)
+  t
+  '("/home/bil/Programs/ProCPP/")
+  '((buffer-display-time 23874 49575 8514 268000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "Programs"
+  'dired-mode
+  '(visual-line-mode beacon-mode which-key-mode company-mode)
+  261
+  '(nil nil)
+  t
+  '("/home/bil/Programs/")
+  '((buffer-display-time 23874 49557 62146 950000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "bil"
+  'dired-mode
+  '(visual-line-mode beacon-mode which-key-mode company-mode)
+  1908
+  '(nil nil)
+  t
+  '("/home/bil/")
+  '((buffer-display-time 23874 49551 868100 383000) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/bits/errno.h"
+  "errno.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 23875 26931 656823 344000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/wchar.h"
+  "wchar.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 23875 26958 365354 804000) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/bits/wctype-wchar.h"
+  "wctype-wchar.h"
+  'c-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/c++/9.1.0/bits/stl_function.h"
+  "stl_function.h"
+  'c++-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/c++/9.1.0/bits/uniform_int_dist.h"
+  "uniform_int_dist.h"
+  'c++-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/include/c++/9.1.0/bits/random.h"
+  "random.h"
+  'c++-mode
+  '(abbrev-mode visual-line-mode beacon-mode which-key-mode company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time) (buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring nil)))
+

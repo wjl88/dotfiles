@@ -1,0 +1,363 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [43 449]))          
+      :file "pbrown1.cpp"
+      :pointmax 450
+      :fsize 449
+      :lastmodtime '(21694 38304 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [40 60])
+            ("main" function (:type "int") nil [61 420]))          
+      :file "p02-06.cpp"
+      :pointmax 421
+      :fsize 420
+      :lastmodtime '(23639 37675 22144 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [21 144]))          
+      :file "p02-e1.cpp"
+      :pointmax 145
+      :fsize 144
+      :lastmodtime '(21694 38314 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [43 393]))          
+      :file "p04-03.cpp"
+      :pointmax 394
+      :fsize 393
+      :lastmodtime '(21694 38322 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [43 345]))          
+      :file "p06-12.cpp"
+      :pointmax 346
+      :fsize 345
+      :lastmodtime '(21694 38302 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("main" function (:type "int") nil [116 755]))          
+      :file "p06-14.cpp"
+      :pointmax 756
+      :fsize 755
+      :lastmodtime '(21694 38324 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [39 59])
+            ("print_matrix" function
+               (:prototype-flag t
+                :type "int")
+                nil [133 152])
+            ("main" function (:type "int") nil [154 713])
+            ("print_matrix" function
+               (:arguments 
+                  ( ("myvect" variable (:type "int") (reparse-symbol arg-sub-list) [734 745]))                  
+                :type "int")
+                nil [717 962]))          
+      :file "p06-16.cpp"
+      :pointmax 963
+      :fsize 962
+      :lastmodtime '(21694 38336 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [21 86]))          
+      :file "p01-03.cpp"
+      :pointmax 87
+      :fsize 86
+      :lastmodtime '(21694 38312 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("main" function (:type "int") nil [21 172]))          
+      :file "p02-00.cpp"
+      :pointmax 173
+      :fsize 172
+      :lastmodtime '(21694 38318 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("virus" type
+               (:members 
+                  ( ("reproRate" variable (:type "float") (reparse-symbol classsubparts) [96 112])
+                    ("resistance" variable (:type "float") (reparse-symbol classsubparts) [115 132])
+                    ("defRate" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :default-value "0.1"
+                        :type "float")
+                        (reparse-symbol classsubparts) [135 168])
+                    ("public" label nil (reparse-symbol classsubparts) [170 177])
+                    ("virus" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("newRes" variable (:type "float") (reparse-symbol arg-sub-list) [225 238]))                          
+                        :type ("virus" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [219 239])
+                    ("virus" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("newRepro" variable (:type "float") (reparse-symbol arg-sub-list) [248 263])
+                            ("newRes" variable (:type "float") (reparse-symbol arg-sub-list) [264 277]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [242 278])
+                    ("reproduce" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :arguments 
+                          ( ("immunity" variable (:type "float") (reparse-symbol arg-sub-list) [334 349]))                          
+                        :type ("virus" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [317 350])
+                    ("survive" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("immunity" variable (:type "float") (reparse-symbol arg-sub-list) [366 381]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [353 382]))                  
+                :type "class")
+                nil [42 388])
+            ("main" function (:type "int") nil [391 450]))          
+      :file "ocw00.cpp"
+      :pointmax 451
+      :fsize 450
+      :lastmodtime '(23871 33044 526840 358000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("random" include (:system-flag t) nil [21 38])
+            ("cmath" include (:system-flag t) nil [39 55])
+            ("chrono" include (:system-flag t) nil [56 73])
+            ("Square" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [169 176])
+                    ("side" variable (:type "double") (reparse-symbol classsubparts) [179 191])
+                    ("getArea" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [194 217])
+                    ("getHyp" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [220 242]))                  
+                :type "class")
+                nil [107 245])
+            ("getArea" function
+               (:methodconst-flag t
+                :parent "Square"
+                :type "double")
+                nil [247 301])
+            ("getHyp" function
+               (:methodconst-flag t
+                :parent "Square"
+                :type "double")
+                nil [303 359])
+            ("two_line" type
+               (:members 
+                  ( ("x1" variable (:type "double") (reparse-symbol classsubparts) [401 411])
+                    ("x2" variable (:type "double") (reparse-symbol classsubparts) [414 424])
+                    ("y1" variable (:type "double") (reparse-symbol classsubparts) [427 437])
+                    ("y2" variable (:type "double") (reparse-symbol classsubparts) [440 450])
+                    ("public" label nil (reparse-symbol classsubparts) [485 492])
+                    ("getCoords" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [495 520])
+                    ("getSlope" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [523 547])
+                    ("setCoord1" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x1" variable (:type "double") (reparse-symbol arg-sub-list) [565 575])
+                            ("y1" variable (:type "double") (reparse-symbol arg-sub-list) [576 586]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [550 587])
+                    ("setCoord2" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x1" variable (:type "double") (reparse-symbol arg-sub-list) [605 615])
+                            ("y2" variable (:type "double") (reparse-symbol arg-sub-list) [616 626]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [590 627]))                  
+                :type "class")
+                nil [361 630])
+            ("getCoords" function
+               (:methodconst-flag t
+                :parent "two_line"
+                :type "double")
+                nil [632 682])
+            ("getSlope" function
+               (:methodconst-flag t
+                :parent "two_line"
+                :type "double")
+                nil [684 747])
+            ("Circle" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [819 827])
+                    ("radius" variable (:type "double") (reparse-symbol classsubparts) [854 868])
+                    ("public" label nil (reparse-symbol classsubparts) [872 879])
+                    ("Circle" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("Circle" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [904 913])
+                    ("getRadius" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [1076 1101])
+                    ("getArea" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [1104 1127])
+                    ("getPerimeter" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [1130 1158])
+                    ("setRadius" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("value" variable (:type "double") (reparse-symbol arg-sub-list) [1176 1189]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1161 1190]))                  
+                :type "class")
+                nil [771 1196])
+            ("Circle" function
+               (:constructor-flag t
+                :parent "Circle"
+                :type ("Circle" type (:type "class") nil nil))
+                nil [1225 1305])
+            ("getRadius" function
+               (:methodconst-flag t
+                :parent "Circle"
+                :type "double")
+                nil [1338 1390])
+            ("getArea" function
+               (:methodconst-flag t
+                :parent "Circle"
+                :type "double")
+                nil [1392 1456])
+            ("getPerimeter" function
+               (:methodconst-flag t
+                :parent "Circle"
+                :type "double")
+                nil [1458 1524])
+            ("setRadius" function
+               (:parent "Circle"
+                :arguments 
+                  ( ("value" variable (:type "double") (reparse-symbol arg-sub-list) [1549 1562]))                  
+                :type "void")
+                nil [1526 1584])
+            ("GenCircs" function
+               (:arguments 
+                  ( ("k_num_reps" variable (:type "int") (reparse-symbol arg-sub-list) [1600 1615])
+                    ("circ" variable (:type ("Circle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1616 1628]))                  
+                :type "int")
+                nil [1586 1790])
+            ("PrintAllCircStats" function
+               (:arguments 
+                  ( ("circ" variable (:type ("Circle" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1816 1828]))                  
+                :type "void")
+                nil [1792 2007])
+            ("oldMain" function (:type "void") nil [2009 2489])
+            ("init_seed" function (:type "void") nil [2491 2549])
+            ("main00" function (:type "void") nil [2551 2751])
+            ("main" function (:type "int") nil [2753 2890]))          
+      :file "oop00.cpp"
+      :pointmax 2891
+      :fsize 2890
+      :lastmodtime '(23878 235 263333 864000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("math" variable (:type ("import" type (:type "class") nil nil)) nil [15 27])
+            ("main" function (:type "int") nil [29 56]))          
+      :file "oop01.cpp"
+      :pointmax 57
+      :fsize 56
+      :lastmodtime '(23873 62850 686699 463000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("math" variable (:type ("module" type (:type "class") nil nil)) nil [24 36])
+            ("add" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [53 59])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [60 66]))                  
+                :type "int")
+                nil [45 86]))          
+      :file "oop01a.cpp"
+      :pointmax 88
+      :fsize 87
+      :lastmodtime '(23873 62861 846699 587000)
+      :unmatched-syntax '((symbol 38 . 44) (symbol 17 . 23) (symbol 49 . 52) (INT 45 . 48) (symbol 38 . 44) (symbol 17 . 23) (INT 45 . 48) (symbol 38 . 44) (symbol 17 . 23) (symbol 17 . 23) (symbol 12 . 18) (symbol 11 . 17) (symbol 6 . 12) (symbol 15 . 19) (symbol 8 . 14) (symbol 1 . 7) (symbol 15 . 18) (symbol 8 . 14) (symbol 1 . 7))))
+  :file "!home!bil!Programs!ProCPP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

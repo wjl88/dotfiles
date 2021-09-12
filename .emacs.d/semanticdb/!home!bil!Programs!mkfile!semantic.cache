@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("cstdio" include (:system-flag t) nil [1 18])
+            ("printHelloMake" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [41 46]))                  
+                :type "void")
+                nil [20 82]))          
+      :file "hellofunc.cpp"
+      :pointmax 83
+      :fsize 82
+      :lastmodtime '(23879 13147 983343 192000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("hellomake.hpp" include nil nil [1 25])
+            ("main" function (:type "int") nil [27 77]))          
+      :file "hellomake.cpp"
+      :pointmax 78
+      :fsize 57
+      :lastmodtime '(23879 13278 430011 323000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Programs!mkfile!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

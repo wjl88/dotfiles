@@ -1,0 +1,33 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("serverPort" variable (:default-value "8000") nil [563 585])
+            ("PC_name" variable (:default-value "'bil'") nil [587 607])
+            ("PC_creature" variable (:default-value "'human'") nil [637 663])
+            ("randomInt" function (:arguments 
+              ( ("low" variable nil (reparse-symbol FormalParameterList) [685 688])
+                ("high" variable nil (reparse-symbol FormalParameterList) [690 694]))              ) nil [666 810])
+            ("randomColorBG" function (:arguments 
+              ( ("socket" variable nil (reparse-symbol FormalParameterList) [835 841]))              ) nil [812 1246])
+            ("returnGameComment" function nil nil [1248 2343])
+            ("bot" function (:arguments 
+              ( ("data" variable nil (reparse-symbol FormalParameterList) [3912 3916])
+                ("socket" variable nil (reparse-symbol FormalParameterList) [3918 3924])
+                ("questionNum" variable nil (reparse-symbol FormalParameterList) [3926 3937]))              ) nil [3899 6575])
+            ("timedQuestion" function (:arguments 
+              ( ("socket" variable nil (reparse-symbol FormalParameterList) [6600 6606])
+                ("askQuestion" variable nil (reparse-symbol FormalParameterList) [6608 6619]))              ) nil [6577 6749]))          
+      :file "chatServer.js.bak"
+      :pointmax 6831
+      :fsize 6830
+      :lastmodtime '(23982 9913 502132 424000)
+      :unmatched-syntax '((VARIABLE 2964 . 2966) (PAREN_BLOCK 2969 . 3816) (VARIABLE 2586 . 2590) (PAREN_BLOCK 2597 . 2675) (VARIABLE 2469 . 2472) (PAREN_BLOCK 2476 . 2502) (VAR 608 . 611) (PAREN_BLOCK 629 . 635) (PAREN_BLOCK 516 . 522) (VAR 487 . 490) (PAREN_BLOCK 503 . 516) (PAREN_BLOCK 445 . 450) (DOT 438 . 439) (VAR 412 . 415) (PAREN_BLOCK 430 . 438) (VAR 381 . 384) (PAREN_BLOCK 398 . 400) (PAREN_BLOCK 342 . 353) (punctuation 23 . 24) (VARIABLE 11 . 18) (punctuation 21 . 22) (punctuation 3 . 4) (punctuation 1 . 2)))
+)
+  :file "!home!bil!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

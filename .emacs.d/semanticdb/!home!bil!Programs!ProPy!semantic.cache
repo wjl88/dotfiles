@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags nil
+      :file "newcards.py"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(23861 50428 683361 782000)
+      :unmatched-syntax '((COLON 21 . 22)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("pygame" include nil nil [1 14])
+            ("time" include nil nil [15 26])
+            ("pygame" code nil nil [57 76])
+            ("sounda" variable nil nil [126 165])
+            ("sounda" code nil nil [190 203])
+            ("time" code nil nil [296 310]))          
+      :file "wordToRI.py"
+      :pointmax 696
+      :fsize 695
+      :lastmodtime '(23987 6815 830790 8000)
+      :unmatched-syntax nil))
+  :file "!home!bil!Programs!ProPy!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

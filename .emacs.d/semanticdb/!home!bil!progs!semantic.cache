@@ -1,0 +1,131 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("cmath" include (:system-flag t) nil [21 37])
+            ("print" function
+               (:arguments 
+                  ( ("val" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52 62]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [40 94])
+            ("f_sum" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [174 182])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [183 192]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [161 232])
+            ("f_sub" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [247 255])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [256 265]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [234 305])
+            ("f_mult" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [321 329])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [330 339]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [307 379])
+            ("f_div" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [394 402])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [403 412]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [381 452])
+            ("f_exponential" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [538 547]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [517 587])
+            ("f_natural_log" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [624 633]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [603 673])
+            ("f_base10_log" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [709 718]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [689 760])
+            ("f_power" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [832 840])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [841 850]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [817 898])
+            ("f_comp" function
+               (:arguments 
+                  ( ("a0" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [916 924])
+                    ("a1" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [925 934]))                  
+                :type "double")
+                nil [900 979])
+            ("main" function (:type "int") nil [982 1795]))          
+      :file "own_math_ref.cpp"
+      :pointmax 1796
+      :fsize 1795
+      :lastmodtime '(23638 22671 117998 471000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("sqrt" variable (:type ("import" type (:type "class") nil nil)) nil [21 33])
+            ("log" variable (:type ("import" type (:type "class") nil nil)) nil [34 45])
+            ("print" function
+               (:arguments 
+                  ( ("inp" variable (:type ("auto" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60 70]))                  
+                :type "void")
+                nil [47 102])
+            ("main" function (:type "void") nil [105 187]))          
+      :file "own_math_modules.cpp"
+      :pointmax 188
+      :fsize 187
+      :lastmodtime '(23638 24452 691829 195000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("math.h" include (:system-flag t) nil [21 38])
+            ("invert_val" function
+               (:arguments 
+                  ( ("val" variable (:type "float") (reparse-symbol arg-sub-list) [57 68]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [40 106])
+            ("sanity_check" function
+               (:arguments 
+                  ( ("val" variable (:type "float") (reparse-symbol arg-sub-list) [127 138]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [108 180])
+            ("main" function (:type "int") nil [182 992]))          
+      :file "own_two.cpp"
+      :pointmax 993
+      :fsize 992
+      :lastmodtime '(23637 5237 846950 429000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("string" include (:system-flag t) nil [21 38])
+            ("vector" include (:system-flag t) nil [39 56])
+            ("progress" variable
+               (:default-value "0.0"
+                :type "float")
+                nil [79 100])
+            ("std::endl" variable (:type "int") nil [518 528])
+            ("progressor" function (:type "void") nil [58 530])
+            ("main" function (:type "int") nil [532 759]))          
+      :file "own_igor.cpp"
+      :pointmax 761
+      :fsize 286
+      :lastmodtime '(23633 5829 144050 102000)
+      :unmatched-syntax nil))
+  :file "!home!bil!progs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

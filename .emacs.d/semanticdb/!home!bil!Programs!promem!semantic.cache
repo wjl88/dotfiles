@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("smtplib" include nil nil [1 15])
+            ("GNAME" variable nil nil [55 73])
+            ("GPASS" variable nil nil [74 91])
+            ("with" code nil nil [94 158])
+            ("print" code nil nil [159 171])
+            ("session" variable nil nil [195 239])
+            ("session" code nil nil [240 254])
+            ("session" code nil nil [255 273])
+            ("session" code nil nil [274 301])
+            ("session" code nil nil [303 364])
+            ("content" code nil nil [365 380]))          
+      :file "e01.py"
+      :pointmax 381
+      :fsize 380
+      :lastmodtime '(21694 37694 0 0)
+      :unmatched-syntax nil))
+  :file "!home!bil!Programs!promem!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

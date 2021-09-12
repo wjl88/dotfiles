@@ -1,0 +1,66 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("tuple" include (:system-flag t) nil [21 37])
+            ("random" include (:system-flag t) nil [38 55])
+            ("divide_remainder" function
+               (:arguments 
+                  ( ("dividend" variable (:type "int") (reparse-symbol arg-sub-list) [79 92])
+                    ("divisor" variable (:type "int") (reparse-symbol arg-sub-list) [93 105]))                  
+                :type "int")
+                nil [57 157])
+            ("gen_trip" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [193 199]))                  
+                :type ("std::tuple" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil)
+                          ("int" type nil nil nil)
+                          ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [159 411])
+            ("evolve_trip" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [449 455])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [456 462])
+                    ("z" variable (:type "int") (reparse-symbol arg-sub-list) [463 469]))                  
+                :type ("std::tuple" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil)
+                          ("int" type nil nil nil)
+                          ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [413 641])
+            ("main" function (:type "int") nil [644 1506]))          
+      :file "001_structbind.cpp"
+      :pointmax 1507
+      :fsize 1506
+      :lastmodtime '(23707 58526 92391 554000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("print_if" function
+               (:arguments 
+                  ( ("j" variable (:type "int") (reparse-symbol arg-sub-list) [37 43]))                  
+                :type "void")
+                nil [22 112])
+            ("switch_test" function (:type "void") nil [114 139])
+            ("main" function (:type "int") nil [141 346]))          
+      :file "002_ifswitchscope.cpp"
+      :pointmax 347
+      :fsize 346
+      :lastmodtime '(23709 4138 909223 851000)
+      :unmatched-syntax nil))
+  :file "!home!bil!progs!cpp17cookbook!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

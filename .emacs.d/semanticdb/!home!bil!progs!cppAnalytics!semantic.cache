@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("fstream" include (:system-flag t) nil [21 39])
+            ("omp.h" include (:system-flag t) nil [40 56])
+            ("random" include (:system-flag t) nil [57 74])
+            ("cstdlib" include (:system-flag t) nil [75 93])
+            ("bil_print.hpp" include nil nil [94 118])
+            ("earnings_per_day" function (:type ("auto" type (:type "class") nil nil)) nil [120 275])
+            ("bool_sale" function (:type "int") nil [277 789])
+            ("iterate_people" function
+               (:arguments 
+                  ( ("num_people" variable (:type "int") (reparse-symbol arg-sub-list) [813 829]))                  
+                :type ("auto" type (:type "class") nil nil))
+                nil [791 1291])
+            ("read_params" function (:type "int") nil [1293 1480])
+            ("main" function (:type "int") nil [1482 1712]))          
+      :file "analytics_p1.cpp"
+      :pointmax 1713
+      :fsize 1712
+      :lastmodtime '(23710 14781 839235 76000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("print_integer" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [43 50]))                  
+                :type "void")
+                nil [22 102]))          
+      :file "bil_print.hpp"
+      :pointmax 103
+      :fsize 102
+      :lastmodtime '(23710 10158 66905 974000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("omp.h" include (:system-flag t) nil [21 37])
+            ("random" include (:system-flag t) nil [38 55])
+            ("cstdlib" include (:system-flag t) nil [56 74])
+            ("bil_print.hpp" include nil nil [75 99])
+            ("roll_day" function (:type "int") nil [102 301])
+            ("total_change" function (:type "int") nil [303 763])
+            ("main" function (:type "int") nil [765 924]))          
+      :file "analytics_p2.cpp"
+      :pointmax 925
+      :fsize 924
+      :lastmodtime '(23710 35288 156751 841000)
+      :unmatched-syntax nil))
+  :file "!home!bil!progs!cppAnalytics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 21])
+            ("fact.h" include nil nil [22 39])
+            ("main" function (:type "int") nil [41 188]))          
+      :file "main.cpp"
+      :pointmax 189
+      :fsize 188
+      :lastmodtime '(23639 25167 802672 50000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "fact.h"
+      :fsize 19
+      :lastmodtime '(23639 24999 508314 878000)))
+  :file "!home!bil!progs!zaman_proj!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

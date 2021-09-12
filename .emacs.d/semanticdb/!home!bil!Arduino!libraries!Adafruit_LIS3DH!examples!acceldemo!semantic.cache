@@ -1,0 +1,391 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ADAFRUIT_LIS3DH_H" variable (:constant-flag t) nil [906 923])
+            ("Arduino.h" include nil nil [925 945])
+            ("SPI.h" include (:system-flag t) nil [947 963])
+            ("Wire.h" include (:system-flag t) nil [964 981])
+            ("Adafruit_Sensor.h" include (:system-flag t) nil [983 1011])
+            ("LIS3DH_DEFAULT_ADDRESS" variable (:constant-flag t) nil [1046 1068])
+            ("LIS3DH_REG_STATUS1" variable (:constant-flag t) nil [2334 2352])
+            ("LIS3DH_REG_OUTADC1_L" variable (:constant-flag t) nil [2366 2386])
+            ("LIS3DH_REG_OUTADC1_H" variable (:constant-flag t) nil [2444 2464])
+            ("LIS3DH_REG_OUTADC2_L" variable (:constant-flag t) nil [2523 2543])
+            ("LIS3DH_REG_OUTADC2_H" variable (:constant-flag t) nil [2601 2621])
+            ("LIS3DH_REG_OUTADC3_L" variable (:constant-flag t) nil [2680 2700])
+            ("LIS3DH_REG_OUTADC3_H" variable (:constant-flag t) nil [2758 2778])
+            ("LIS3DH_REG_INTCOUNT" variable (:constant-flag t) nil [2837 2856])
+            ("LIS3DH_REG_WHOAMI" variable (:constant-flag t) nil [2995 3012])
+            ("LIS3DH_REG_TEMPCFG" variable (:constant-flag t) nil [3410 3428])
+            ("LIS3DH_REG_CTRL1" variable (:constant-flag t) nil [3995 4011])
+            ("LIS3DH_REG_CTRL2" variable (:constant-flag t) nil [4741 4757])
+            ("LIS3DH_REG_CTRL3" variable (:constant-flag t) nil [5566 5582])
+            ("LIS3DH_REG_CTRL4" variable (:constant-flag t) nil [6427 6443])
+            ("LIS3DH_REG_CTRL5" variable (:constant-flag t) nil [7036 7052])
+            ("LIS3DH_REG_CTRL6" variable (:constant-flag t) nil [7142 7158])
+            ("LIS3DH_REG_REFERENCE" variable (:constant-flag t) nil [7172 7192])
+            ("LIS3DH_REG_STATUS2" variable (:constant-flag t) nil [8376 8394])
+            ("LIS3DH_REG_OUT_X_L" variable (:constant-flag t) nil [8408 8426])
+            ("LIS3DH_REG_OUT_X_H" variable (:constant-flag t) nil [8484 8502])
+            ("LIS3DH_REG_OUT_Y_L" variable (:constant-flag t) nil [8561 8579])
+            ("LIS3DH_REG_OUT_Y_H" variable (:constant-flag t) nil [8637 8655])
+            ("LIS3DH_REG_OUT_Z_L" variable (:constant-flag t) nil [8714 8732])
+            ("LIS3DH_REG_OUT_Z_H" variable (:constant-flag t) nil [8790 8808])
+            ("LIS3DH_REG_FIFOCTRL" variable (:constant-flag t) nil [9217 9236])
+            ("LIS3DH_REG_FIFOSRC" variable (:constant-flag t) nil [9250 9268])
+            ("LIS3DH_REG_INT1CFG" variable (:constant-flag t) nil [10720 10738])
+            ("LIS3DH_REG_INT1SRC" variable (:constant-flag t) nil [11678 11696])
+            ("LIS3DH_REG_INT1THS" variable (:constant-flag t) nil [11710 11728])
+            ("LIS3DH_REG_INT1DUR" variable (:constant-flag t) nil [11864 11882])
+            ("LIS3DH_REG_CLICKCFG" variable (:constant-flag t) nil [13228 13247])
+            ("LIS3DH_REG_CLICKSRC" variable (:constant-flag t) nil [14175 14194])
+            ("LIS3DH_REG_CLICKTHS" variable (:constant-flag t) nil [14344 14363])
+            ("LIS3DH_REG_TIMELIMIT" variable (:constant-flag t) nil [14515 14535])
+            ("LIS3DH_REG_TIMELATENCY" variable (:constant-flag t) nil [14692 14714])
+            ("LIS3DH_REG_TIMEWINDOW" variable (:constant-flag t) nil [14836 14857])
+            ("lis3dh_range_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("LIS3DH_RANGE_16_G" variable
+                             (:constant-flag t
+                              :default-value (14941 14945)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [14921 14945])
+                          ("LIS3DH_RANGE_8_G" variable
+                             (:constant-flag t
+                              :default-value (14979 14983)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [14960 14983])
+                          ("LIS3DH_RANGE_4_G" variable
+                             (:constant-flag t
+                              :default-value (15017 15021)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [14998 15021])
+                          ("LIS3DH_RANGE_2_G" variable
+                             (:constant-flag t
+                              :default-value (15055 15059)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15036 15059]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [14904 15105])
+            ("lis3dh_axis_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("LIS3DH_AXIS_X" variable
+                             (:constant-flag t
+                              :default-value (15178 15181)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15162 15181])
+                          ("LIS3DH_AXIS_Y" variable
+                             (:constant-flag t
+                              :default-value (15201 15204)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15185 15204])
+                          ("LIS3DH_AXIS_Z" variable
+                             (:constant-flag t
+                              :default-value (15224 15227)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15208 15227]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [15145 15245])
+            ("lis3dh_dataRate_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("LIS3DH_DATARATE_400_HZ" variable
+                             (:constant-flag t
+                              :default-value (15361 15367)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15336 15367])
+                          ("LIS3DH_DATARATE_200_HZ" variable
+                             (:constant-flag t
+                              :default-value (15406 15412)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15381 15412])
+                          ("LIS3DH_DATARATE_100_HZ" variable
+                             (:constant-flag t
+                              :default-value (15451 15457)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15426 15457])
+                          ("LIS3DH_DATARATE_50_HZ" variable
+                             (:constant-flag t
+                              :default-value (15495 15501)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15471 15501])
+                          ("LIS3DH_DATARATE_25_HZ" variable
+                             (:constant-flag t
+                              :default-value (15540 15546)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15516 15546])
+                          ("LIS3DH_DATARATE_10_HZ" variable
+                             (:constant-flag t
+                              :default-value (15585 15591)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15561 15591])
+                          ("LIS3DH_DATARATE_1_HZ" variable
+                             (:constant-flag t
+                              :default-value (15628 15634)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15605 15634])
+                          ("LIS3DH_DATARATE_POWERDOWN" variable
+                             (:constant-flag t
+                              :default-value (15676 15677)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15648 15677])
+                          ("LIS3DH_DATARATE_LOWPOWER_1K6HZ" variable
+                             (:constant-flag t
+                              :default-value (15714 15720)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15681 15720])
+                          ("LIS3DH_DATARATE_LOWPOWER_5KHZ" variable
+                             (:constant-flag t
+                              :default-value (15756 15762)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [15724 15762]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [15319 15785])
+            ("Adafruit_LIS3DH" type
+               (:superclasses 
+                  ( ("Adafruit_Sensor" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [15943 15950])
+                    ("Adafruit_LIS3DH" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("Wi" variable
+                               (:pointer 1
+                                :default-value "&Wire"
+                                :type ("TwoWire" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [15969 15988]))                          
+                        :type ("Adafruit_LIS3DH" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [15953 15990])
+                    ("Adafruit_LIS3DH" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("cspin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16009 16022])
+                            ("theSPI" variable
+                               (:pointer 1
+                                :default-value "&SPI"
+                                :type ("SPIClass" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16023 16046]))                          
+                        :type ("Adafruit_LIS3DH" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [15993 16048])
+                    ("Adafruit_LIS3DH" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("cspin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16067 16080])
+                            ("mosipin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16081 16096])
+                            ("misopin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16097 16112])
+                            ("sckpin" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16113 16127]))                          
+                        :type ("Adafruit_LIS3DH" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16051 16128])
+                    ("begin" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("addr" variable
+                               (:default-value "LIS3DH_DEFAULT_ADDRESS"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16143 16180])
+                            ("nWAI" variable
+                               (:default-value "0x33"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16182 16201]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [16132 16203])
+                    ("getDeviceID" function
+                       (:prototype-flag t
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16207 16229])
+                    ("haveNewData" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [16232 16251])
+                    ("read" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [16255 16267])
+                    ("readADC" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("a" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16286 16296]))                          
+                        :type ("int16_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16270 16297])
+                    ("setRange" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("range" variable (:type ("lis3dh_range_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16315 16336]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [16301 16337])
+                    ("getRange" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16364 16369]))                          
+                        :type ("lis3dh_range_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16340 16370])
+                    ("setDataRate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dataRate" variable (:type ("lis3dh_dataRate_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16391 16418]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [16374 16419])
+                    ("getDataRate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16452 16457]))                          
+                        :type ("lis3dh_dataRate_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16422 16458])
+                    ("getEvent" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("event" variable
+                               (:pointer 1
+                                :type ("sensors_event_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16476 16499]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [16462 16500])
+                    ("getSensor" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("sensor" variable
+                               (:pointer 1
+                                :type ("sensor_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16518 16535]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [16503 16536])
+                    ("setClick" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("c" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16554 16564])
+                            ("clickthresh" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16565 16585])
+                            ("timelimit" variable
+                               (:default-value "10"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16586 16608])
+                            ("timelatency" variable
+                               (:default-value "20"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16626 16650])
+                            ("timewindow" variable
+                               (:default-value "255"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [16652 16676]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [16540 16678])
+                    ("getClick" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16698 16703]))                          
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [16681 16704])
+                    ("x" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16708 16718])
+                    ("y" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16742 16752])
+                    ("z" variable (:type ("int16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16776 16786])
+                    ("x_g" variable (:type "float") (reparse-symbol classsubparts) [16811 16821])
+                    ("y_g" variable (:type "float") (reparse-symbol classsubparts) [16878 16888])
+                    ("z_g" variable (:type "float") (reparse-symbol classsubparts) [16945 16955])
+                    ("protected" label nil (reparse-symbol classsubparts) [17011 17021])
+                    ("spixfer" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable
+                               (:default-value "0xFF"
+                                :type ("uint8_t" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [17040 17056]))                          
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [17024 17058])
+                    ("writeRegister8" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("reg" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17081 17093])
+                            ("value" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17094 17108]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [17061 17109])
+                    ("readRegister8" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("reg" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17134 17146]))                          
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [17112 17147])
+                    ("private" label nil (reparse-symbol classsubparts) [17149 17157])
+                    ("I2Cinterface" variable
+                       (:pointer 1
+                        :type ("TwoWire" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [17160 17182])
+                    ("SPIinterface" variable
+                       (:pointer 1
+                        :type ("SPIClass" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [17185 17208])
+                    ("_wai" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17212 17225])
+                    ("_cs" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17229 17260])
+                    ("_mosi" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17229 17260])
+                    ("_miso" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17229 17260])
+                    ("_sck" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17229 17260])
+                    ("_i2caddr" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17264 17280])
+                    ("_sensorID" variable (:type ("int32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [17284 17302]))                  
+                :type "class")
+                nil [15894 17305]))          
+      :file "Adafruit_LIS3DH.h"
+      :pointmax 17314
+      :fsize 17317
+      :lastmodtime '(23932 41910 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LIS3DH_REG_OUTADC3_H" . ((number "0x0D" 2779 . 2783)))
+          ("LIS3DH_REG_CTRL6" . ((number "0x25" 7159 . 7163)))
+          ("LIS3DH_DEFAULT_ADDRESS" . ((semantic-list "(0x18)" 1069 . 1075)))
+          ("LIS3DH_REG_INTCOUNT" . ((number "0x0E" 2912 . 2916)))
+          ("LIS3DH_REG_OUT_Y_H" . ((number "0x2B" 8656 . 8660)))
+          ("LIS3DH_REG_OUT_Z_L" . ((number "0x2C" 8733 . 8737)))
+          ("LIS3DH_REG_FIFOSRC" . ((number "0x2F" 9325 . 9329)))
+          ("LIS3DH_REG_TIMELIMIT" . ((number "0x3B" 14536 . 14540)))
+          ("LIS3DH_REG_STATUS1" . ((number "0x07" 2353 . 2357)))
+          ("LIS3DH_REG_WHOAMI" . ((number "0x0F" 3070 . 3074)))
+          ("LIS3DH_REG_INT1CFG" . ((number "0x30" 10739 . 10743)))
+          ("LIS3DH_REG_INT1DUR" . ((number "0x33" 11939 . 11943)))
+          ("LIS3DH_REG_STATUS2" . ((number "0x27" 8395 . 8399)))
+          ("LIS3DH_REG_OUTADC2_H" . ((number "0x0B" 2622 . 2626)))
+          ("LIS3DH_REG_OUTADC3_L" . ((number "0x0C" 2701 . 2705)))
+          ("LIS3DH_REG_INT1THS" . ((number "0x32" 11785 . 11789)))
+          ("LIS3DH_REG_CLICKCFG" . ((number "0x38" 13248 . 13252)))
+          ("LIS3DH_REG_OUT_X_H" . ((number "0x29" 8503 . 8507)))
+          ("LIS3DH_REG_OUT_Y_L" . ((number "0x2A" 8580 . 8584)))
+          ("LIS3DH_REG_REFERENCE" . ((number "0x26" 7193 . 7197)))
+          ("LIS3DH_REG_CLICKTHS" . ((number "0x3A" 14364 . 14368)))
+          ("LIS3DH_REG_TEMPCFG" . ((number "0x1F" 3429 . 3433)))
+          ("LIS3DH_REG_OUTADC1_H" . ((number "0x09" 2465 . 2469)))
+          ("LIS3DH_REG_OUTADC2_L" . ((number "0x0A" 2544 . 2548)))
+          ("LIS3DH_REG_CTRL1" . ((number "0x20" 4012 . 4016)))
+          ("LIS3DH_REG_CTRL2" . ((number "0x21" 4758 . 4762)))
+          ("LIS3DH_REG_OUT_X_L" . ((number "0x28" 8427 . 8431)))
+          ("LIS3DH_REG_INT1SRC" . ((number "0x31" 11697 . 11701)))
+          ("LIS3DH_REG_CTRL3" . ((number "0x22" 5583 . 5587)))
+          ("LIS3DH_REG_OUT_Z_H" . ((number "0x2D" 8809 . 8813)))
+          ("LIS3DH_REG_FIFOCTRL" . ((number "0x2E" 9237 . 9241)))
+          ("LIS3DH_REG_TIMELATENCY" . ((number "0x3C" 14715 . 14719)))
+          ("LIS3DH_REG_TIMEWINDOW" . ((number "0x3D" 14858 . 14862)))
+          ("LIS3DH_REG_CTRL4" . ((number "0x23" 6444 . 6448)))
+          ("LIS3DH_REG_CLICKSRC" . ((number "0x39" 14195 . 14199)))
+          ("ADAFRUIT_LIS3DH_H")
+          ("LIS3DH_REG_OUTADC1_L" . ((number "0x08" 2387 . 2391)))
+          ("LIS3DH_REG_CTRL5" . ((number "0x24" 7053 . 7057)))
+          )
+))
+  :file "!home!bil!Arduino!libraries!Adafruit_LIS3DH!examples!acceldemo!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

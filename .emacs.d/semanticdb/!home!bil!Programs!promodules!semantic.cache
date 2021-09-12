@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("sumdigi" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [39 46])
+                    ("a" variable (:type "int") (reparse-symbol classsubparts) [49 55])
+                    ("b" variable (:type "int") (reparse-symbol classsubparts) [58 64])
+                    ("sum" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [67 83]))                  
+                :type "class")
+                nil [22 86])
+            ("sum" function
+               (:methodconst-flag t
+                :parent "sumdigi"
+                :type "int")
+                nil [88 132])
+            ("main" function (:type "int") nil [134 225]))          
+      :file "top.cpp"
+      :pointmax 226
+      :fsize 225
+      :lastmodtime '(23878 9505 263371 771000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("math" variable (:type ("module" type (:type "class") nil nil)) nil [8 20])
+            ("four" function (:type "int") nil [22 46])
+            ("six" function (:type "int") nil [54 86]))          
+      :file "mod1.hpp"
+      :pointmax 87
+      :fsize 86
+      :lastmodtime '(23878 7945 596687 603000)
+      :unmatched-syntax '((symbol 47 . 53) (symbol 1 . 7) (symbol 26 . 30) (INT 22 . 25) (symbol 1 . 7) (symbol 8 . 12) (symbol 1 . 7)))
+
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("printHelloMake" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [21 26]))                  
+                :type "void")
+                nil [1 27]))          
+      :file "hellomake.hpp"
+      :pointmax 28
+      :fsize 27
+      :lastmodtime '(23879 13482 426680 285000)
+      :unmatched-syntax '((symbol 6 . 20) (VOID 1 . 5) (symbol 6 . 11) (VOID 1 . 5))))
+  :file "!home!bil!Programs!promodules!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
